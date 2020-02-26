@@ -1,9 +1,9 @@
-from flask import Flask, escape, request, jsonify
+from flask import Flask, escape, request, jsonify,render_template
 from firebase_admin import credentials, firestore, initialize_app
 import json
 cred = credentials.Certificate("key.json")
 default_app = initialize_app(cred)
-db = firestore.client()
+db = firestore.client() 
 todo_ref = db.collection('urls')
 
 app = Flask(__name__)
@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'WeRnoobs'
+    return render_template("index.html")
 
 
 @app.route('/command', methods=['GET'])
