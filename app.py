@@ -15,7 +15,7 @@ def index():
 
 
 @app.route('/command', methods=['GET'])
-    def handle_command():
+def handle_command():
     command = request.args.get('command', '')
     return command
 
