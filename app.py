@@ -11,11 +11,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'test again again again'
+    return 'WeRnoobs'
 
 
 @app.route('/command', methods=['GET'])
-def handle_command():
+    def handle_command():
     command = request.args.get('command', '')
     return command
 
@@ -29,7 +29,7 @@ def create():
         todo_ref.document("url").set(_data)
         t = todo_ref.document("url").get()
         print("checking")
-        read()
+        # read()
         if t.to_dict() == _data:
             return jsonify({"success": True}), 200
         else:
@@ -40,7 +40,8 @@ def create():
 
 @app.route('/read', methods=['GET'])
 def read():
-    # http://300bf87b.ngrok.io/read?id=https
+    # http://300bf87b.ngrok.io/read?id=url
+    
     try:
         todo_id = request.args.get('id')
         print(todo_id)
@@ -58,7 +59,7 @@ def read():
 
 @app.route('/delete', methods=['GET', 'DELETE'])
 def delete():
-    # http://300bf87b.ngrok.io/delete?id=https
+    # http://300bf87b.ngrok.io/delete?id=url
     try:
         todo_id = request.args.get('id')
         todo_ref.document(todo_id).delete()
