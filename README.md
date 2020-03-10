@@ -4,8 +4,8 @@
 | Abstract.docx              | ✔ |
 | Coding.docx                | ✔ |
 | Conclusion.docx            | ❌ |
-| Feasibility study.docx     | ❌ |
-| Implementation.docx        | ❌ |
+| Feasibility study.docx     | ✔ |
+| Implementation.docx        | ✔ |
 | Introduction.docx          | ✔ |
 | Literature survey.docx     | ❌ |
 | Output.docx                | ❌ |
