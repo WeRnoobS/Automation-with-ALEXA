@@ -3,11 +3,11 @@
 | ------------- |:-------------:|
 | Abstract.docx              | ✔ |
 | Coding.docx                | ✔ |
-| Conclusion.docx            | ❌|
+| Conclusion.docx            | ✔ |
 | Feasibility study.docx     | ✔ |
 | Implementation.docx        | ✔ |
 | Introduction.docx          | ✔ |
-| Literature survey.docx     | ❌|
+| Literature survey.docx     | ✔ |
 | Output.docx                | ✔ |
 | References.docx            | ✔ |
 | System design.docx         | ✔ |
