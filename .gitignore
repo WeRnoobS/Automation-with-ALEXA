@@ -126,6 +126,10 @@ dmypy.json
 /Automations/*
 /Mainfiles/*
 /Executing/*.lnk
+
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -190,11 +194,11 @@ db.sqlite3
 db.sqlite3-journal
 
 # Flask stuff:
-instance/
-.webassets-cache
+Flask_api/instance/
+Flask_api/.webassets-cache
 
 # Scrapy stuff:
-.scrapy
+Flask_api/.scrapy
 
 # Sphinx documentation
 docs/_build/
@@ -206,11 +210,11 @@ target/
 .ipynb_checkpoints
 
 # IPython
-profile_default/
-ipython_config.py
+Flask_api/profile_default/
+Flask_api/ipython_config.py
 
 # pyenv
-.python-version
+Flask_api/.python-version
 
 # pipenv
 #   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
@@ -226,13 +230,13 @@ celerybeat-schedule
 *.sage.py
 
 # Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+Flask_api/.env
+Flask_api/.venv
+Flask_api/env/
+Flask_api/venv/
+Flask_api/ENV/
+Flask_api/env.bak/
+Flask_api/venv.bak/
 
 # Spyder project settings
 .spyderproject
@@ -251,5 +255,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-#key.json
+Flask_api/key.json
 test.json
