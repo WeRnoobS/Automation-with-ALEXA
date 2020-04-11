@@ -1,0 +1,194 @@
+[33mcommit 7bdc960d107cc3e8adb5c36a3d64bee642ecb54e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: 12cba6f 89bc47b
+Author: ranjithran <moory.ranjith@gmail.com>
+Date:   Sat Apr 11 09:11:17 2020 +0530
+
+    Added Automation-with-Alexa
+
+[33mcommit 12cba6f3bec7f19ad119f4dbc9c9fbf55ff6abd0[m
+Merge: 4ec64a4 a567908
+Author: ranjithran <moory.ranjith@gmail.com>
+Date:   Sat Apr 11 09:08:47 2020 +0530
+
+    Added Flask_api_api
+
+[33mcommit 4ec64a44f4522f2cecd5f41b7c01384790ea4e34[m
+Merge: 091b6c7 09c45ad
+Author: ranjithran <moory.ranjith@gmail.com>
+Date:   Sat Apr 11 09:04:48 2020 +0530
+
+    Added Client_api
+
+[33mcommit 091b6c7cc7ef0553d3f839d399c86bf195992696[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: ranjithran <moory.ranjith@gmail.com>
+Date:   Sat Apr 11 08:43:37 2020 +0530
+
+    first commit
+
+[33mcommit 89bc47bbadcfc24654c53122768977e7e8ce82b9[m[33m ([m[1;31mAutomation-with-Alexa/master[m[33m)[m
+Merge: ae2b3ec 2cb9d9b
+Author: Prakash <wikyprash@gmail.com>
+Date:   Fri Mar 13 08:31:23 2020 +0530
+
+    Merge pull request #1 from wikyprash/master
+    
+    documentation comleted
+
+[33mcommit 2cb9d9bd0247422f72eb16adc5677e44e80fc4fe[m
+Author: Prakash <wikyprash@gmail.com>
+Date:   Fri Mar 13 08:28:46 2020 +0530
+
+    Update README.md
+
+[33mcommit b09f39e33a27d5be6a33a4c6c743bd5d477198e4[m
+Author: Prakash <wikyprash@gmail.com>
+Date:   Fri Mar 13 08:28:03 2020 +0530
+
+    final documentation added
+    
+    documentation completed
+
+[33mcommit ae2b3ec5572e0e775c0ad6a4774cdd2140345a4d[m
+Author: wikyprash <wikyprash@gmail.com>
+Date:   Thu Mar 12 01:09:15 2020 +0530
+
+    completed output
+
+[33mcommit bd272582c9b89b3509bd6a13f852d764177101a1[m
+Author: ranjithran <36547960+ranjithran@users.noreply.github.com>
+Date:   Tue Mar 10 22:53:45 2020 +0530
+
+    small update
+
+[33mcommit 09c45ad1b0f2ca5de72486b35c35ce3c0449a338[m[33m ([m[1;31mClient_api/master[m[33m)[m
+Author: ranjithran <36547960+ranjithran@users.noreply.github.com>
+Date:   Sat Mar 7 15:03:59 2020 +0530
+
+    adding
+
+[33mcommit aef3dadacbe2fcbcab837e54251b9fd199fbf5e7[m
+Author: ranjithran <36547960+ranjithran@users.noreply.github.com>
+Date:   Fri Mar 6 20:05:08 2020 +0530
+
+    update author names
+
+[33mcommit 9db987230bb64d51e9fb72129f4829ae426fc857[m
+Author: ranjithran <36547960+ranjithran@users.noreply.github.com>
+Date:   Fri Mar 6 17:44:26 2020 +0530
+
+    Update README.md
+
+[33mcommit 42682c8f59b51b666c55a47994c7c2c65d22b8ac[m
+Author: ranjithran <36547960+ranjithran@users.noreply.github.com>
+Date:   Fri Mar 6 17:41:25 2020 +0530
+
+    Update SYSTEM DESIGN.docx
+
+[33mcommit b1b602e80029b50d93c7a73d982fd28849289b4a[m
+Author: ranjithran <36547960+ranjithran@users.noreply.github.com>
+Date:   Fri Mar 6 17:28:24 2020 +0530
+
+    update names
+
+[33mcommit 896a9c8facd2b471441d196276fcbd617c6c7c07[m
+Author: ranjithran <36547960+ranjithran@users.noreply.github.com>
+Date:   Fri Mar 6 17:27:12 2020 +0530
+
+    Update README.md
+
+[33mcommit 3775218f32938378f20d9778d5a199faa9e11943[m
+Author: ranjithran <36547960+ranjithran@users.noreply.github.com>
+Date:   Fri Mar 6 17:07:01 2020 +0530
+
+    Create README.md
+
+[33mcommit 93d00e0ebc36aecc46143f3f05b19de61c4d2e5e[m
+Author: ranjithran <36547960+ranjithran@users.noreply.github.com>
+Date:   Fri Mar 6 17:04:01 2020 +0530
+
+    Update Abstract.docx
+
+[33mcommit 7dda3915acda662a4c660324e94694ffcdd49cfb[m
+Author: ranjithran <36547960+ranjithran@users.noreply.github.com>
+Date:   Fri Mar 6 16:48:58 2020 +0530
+
+    added
+
+[33mcommit a56790804ddd98bc1dad49cd44dac8cb16094eb6[m[33m ([m[1;31mFlask_api/master[m[33m)[m
+Merge: 652e3a9 e584f10
+Author: ranjithran <36547960+ranjithran@users.noreply.github.com>
+Date:   Tue Mar 3 17:08:44 2020 +0530
+
+    Merge branch 'master' of https://github.com/ranjithran/Flask_api
+
+[33mcommit e584f10c653a7efbfba79c556ff29577d9bfb96b[m
+Author: ranjithran <36547960+ranjithran@users.noreply.github.com>
+Date:   Fri Feb 28 13:40:58 2020 +0530
+
+    Update index.html
+
+[33mcommit 00c02b77dcf5007bc50aea443b45f15d0948e1ce[m
+Author: ranjithran <36547960+ranjithran@users.noreply.github.com>
+Date:   Fri Feb 28 13:38:12 2020 +0530
+
+    Create index.html
+
+[33mcommit f653a4f36807ef8f02775b6080fe1ead5abbd238[m
+Author: ranjithran <36547960+ranjithran@users.noreply.github.com>
+Date:   Fri Feb 28 13:37:23 2020 +0530
+
+    Rename index.html to index.html.back
+
+[33mcommit 652e3a9a6cc5317707b1f0b6573e302249a2de65[m
+Author: ranjithran <moory.ranjith@gmail.com>
+Date:   Thu Feb 27 21:09:03 2020 +0530
+
+    Update index.html
+
+[33mcommit 902a4a55d4a6c29ff2a1299130aeed5284f6fdc5[m
+Author: ranjithran <moory.ranjith@gmail.com>
+Date:   Thu Feb 27 20:53:11 2020 +0530
+
+    Initial commit
+
+[33mcommit b6d5d36603625c8ab63d8758ab0c40d94bcaddab[m
+Author: ranjithran <moory.ranjith@gmail.com>
+Date:   Wed Feb 26 21:43:56 2020 +0530
+
+    update add temples
+
+[33mcommit ecc9c28e33348da031db341f6c6351c4141441b2[m
+Author: ranjithran <moory.ranjith@gmail.com>
+Date:   Wed Feb 26 21:35:26 2020 +0530
+
+    Update app.py
+
+[33mcommit c86244723e27e73459dd9acabf24677733b7029a[m
+Author: ranjithran <moory.ranjith@gmail.com>
+Date:   Wed Feb 26 21:07:18 2020 +0530
+
+    Update app.py
+
+[33mcommit 9a3c50a0a9f6f560c74b836a8a19a4676e7c2534[m
+Author: ranjithran <moory.ranjith@gmail.com>
+Date:   Wed Feb 19 20:01:00 2020 +0530
+
+    Update requirements.txt
+
+[33mcommit 05c18826448108d08ca32855b3c8f65d394ec3a4[m
+Author: ranjithran <moory.ranjith@gmail.com>
+Date:   Wed Feb 19 19:53:50 2020 +0530
+
+    add key keep it scert
+
+[33mcommit d990da7c2d92b0ba62e6a4a2431d808a21b7f7a4[m
+Author: ranjithran <moory.ranjith@gmail.com>
+Date:   Wed Feb 19 19:46:42 2020 +0530
+
+    init
+
+[33mcommit 481bb54bf41c758c1031bc738929f8666bc38630[m
+Author: ranjithran <moory.ranjith@gmail.com>
+Date:   Wed Feb 19 19:43:37 2020 +0530
+
+    Initial commit
