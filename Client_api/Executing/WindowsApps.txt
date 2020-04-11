@@ -1,0 +1,6 @@
+cmd
+vscode
+mspaint
+notepad
+notepad++
+calc
