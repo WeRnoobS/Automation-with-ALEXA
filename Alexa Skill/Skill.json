@@ -1,0 +1,526 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "automation skill",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "WhatsMyCommandIntent",
+                    "slots": [],
+                    "samples": [
+                        "last commands"
+                    ]
+                },
+                {
+                    "name": "ThingsYouCanDo",
+                    "slots": [],
+                    "samples": [
+                        "what can u do for me",
+                        "List the commands",
+                        "Tell me what u can do",
+                        "What you can do"
+                    ]
+                },
+                {
+                    "name": "ExecutingCommands",
+                    "slots": [
+                        {
+                            "name": "SingleCommands",
+                            "type": "singlelinecommands"
+                        }
+                    ],
+                    "samples": [
+                        "can u show my {SingleCommands} ",
+                        "open {SingleCommands}",
+                        "can u {SingleCommands}",
+                        "arrange the {SingleCommands}",
+                        "run the {SingleCommands}",
+                        "clean the {SingleCommands}",
+                        "start {SingleCommands}",
+                        "can u start {SingleCommands}",
+                        "{SingleCommands}"
+                    ]
+                },
+                {
+                    "name": "OpeingNormalPrograms",
+                    "slots": [
+                        {
+                            "name": "NormalProgram",
+                            "type": "ProgramNames"
+                        }
+                    ],
+                    "samples": [
+                        "run {NormalProgram}",
+                        "start {NormalProgram}",
+                        "open {NormalProgram}"
+                    ]
+                },
+                {
+                    "name": "DialogCommands",
+                    "slots": [
+                        {
+                            "name": "commands",
+                            "type": "commands"
+                        },
+                        {
+                            "name": "projectname",
+                            "type": "AMAZON.SearchQuery",
+                            "samples": [
+                                "name of the project is {projectname}",
+                                "name is {projectname}",
+                                "project name is {projectname}",
+                                "{projectname}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "{commands}",
+                        "create {commands}",
+                        "can create {commands} "
+                    ]
+                },
+                {
+                    "name": "GettingResult",
+                    "slots": [
+                        {
+                            "name": "year",
+                            "type": "year",
+                            "samples": [
+                                "year",
+                                "{year}  of Btech",
+                                "{year} year"
+                            ]
+                        },
+                        {
+                            "name": "sem",
+                            "type": "Sem",
+                            "samples": [
+                                "{sem} sem",
+                                "{sem} of Btech",
+                                "{sem}"
+                            ]
+                        },
+                        {
+                            "name": "ExamYear",
+                            "type": "AMAZON.DATE",
+                            "samples": [
+                                "{ExamYear}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "can u show my result",
+                        "get my result",
+                        "show my result",
+                        "result"
+                    ]
+                },
+                {
+                    "name": "Loginer",
+                    "slots": [],
+                    "samples": [
+                        "open facebook",
+                        "login my facebook"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "singlelinecommands",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "screenmirror",
+                                "synonyms": [
+                                    "screen mirroring",
+                                    "screenmirroring",
+                                    "screen",
+                                    "screen share"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "desktopCleaner",
+                                "synonyms": [
+                                    "desktop",
+                                    "cleaner",
+                                    "desktop cleaner"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "ProgramNames",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "cacl",
+                                "synonyms": [
+                                    "calculator"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "start chrome",
+                                "synonyms": [
+                                    "chrome",
+                                    "browser"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "notepad"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "code",
+                                "synonyms": [
+                                    "vscode"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mspaint",
+                                "synonyms": [
+                                    "paint"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "commands",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "flutterproject",
+                                "synonyms": [
+                                    "flutter project",
+                                    "project",
+                                    "flutter"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Sem",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "II",
+                                "synonyms": [
+                                    "second",
+                                    "two",
+                                    "2"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "I",
+                                "synonyms": [
+                                    "frist",
+                                    "one",
+                                    "1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "year",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "IV",
+                                "synonyms": [
+                                    "fourth",
+                                    "4"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "III",
+                                "synonyms": [
+                                    "third",
+                                    "3"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "II",
+                                "synonyms": [
+                                    "two",
+                                    "2"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "I",
+                                "synonyms": [
+                                    "one",
+                                    "1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "namesofapps",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "fb"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "facebook"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "ExecutingCommands",
+                    "delegationStrategy": "ALWAYS",
+                    "confirmationRequired": true,
+                    "prompts": {
+                        "confirmation": "Confirm.Intent.398462502021"
+                    },
+                    "slots": [
+                        {
+                            "name": "SingleCommands",
+                            "type": "singlelinecommands",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        }
+                    ]
+                },
+                {
+                    "name": "DialogCommands",
+                    "confirmationRequired": true,
+                    "prompts": {
+                        "confirmation": "Confirm.Intent.1303764452968"
+                    },
+                    "slots": [
+                        {
+                            "name": "commands",
+                            "type": "commands",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "projectname",
+                            "type": "AMAZON.SearchQuery",
+                            "confirmationRequired": true,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "confirmation": "Confirm.Slot.1303764452968.1214890330054",
+                                "elicitation": "Elicit.Slot.763323224860.769562388878"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "GettingResult",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "year",
+                            "type": "year",
+                            "confirmationRequired": true,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "confirmation": "Confirm.Slot.362732585282.1351795572908",
+                                "elicitation": "Elicit.Slot.362732585282.1351795572908"
+                            }
+                        },
+                        {
+                            "name": "sem",
+                            "type": "Sem",
+                            "confirmationRequired": true,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "confirmation": "Confirm.Slot.362732585282.109410562451",
+                                "elicitation": "Elicit.Slot.362732585282.109410562451"
+                            }
+                        },
+                        {
+                            "name": "ExamYear",
+                            "type": "AMAZON.DATE",
+                            "confirmationRequired": true,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "confirmation": "Confirm.Slot.362732585282.1446529009495",
+                                "elicitation": "Elicit.Slot.362732585282.1446529009495"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
+        },
+        "prompts": [
+            {
+                "id": "Confirm.Intent.898526131785",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "can tell project name"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.763323224860.769562388878",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "can tell the name of project"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "project name ?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "can you say project name"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "what is project name"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.763323224860.1442318176051",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "project name please?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "can you tell project name"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.362732585282.1351795572908",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Which year of Btech do you want?"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Slot.362732585282.1351795572908",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Is it {year}  year  Btech,right?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.362732585282.109410562451",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Which Sem of {year} year Btech"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Slot.362732585282.109410562451",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "is it {sem} sem  of {year} year btech , right?"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Slot.1303764452968.1214890330054",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "{projectname} .is it correct?"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Intent.1303764452968",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Do u want to create a flutter project with name {projectname} , is it right?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.362732585282.1446529009495",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "in which year do u want "
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Slot.362732585282.1446529009495",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Btech {year} year of {sem} sem in {ExamYear} . is it right "
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Intent.398462502021",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "is it {SingleCommands} do want to run?"
+                    }
+                ]
+            }
+        ]
+    }
+}
