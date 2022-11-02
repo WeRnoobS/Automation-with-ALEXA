@@ -19,8 +19,8 @@ def handle_Commands(command):
     elif command == "getcommands":
         return listingCommands(command)
     else:
-        return "no commands found"
-    return "opened"
+        return "command not found"
+    return "opening "+command
 
 
 def automation(command):

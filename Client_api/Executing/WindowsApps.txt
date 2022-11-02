@@ -4,3 +4,4 @@ mspaint
 notepad
 notepad++
 calc
+chrome
