@@ -7,4 +7,4 @@ start cmd /k launch.cmd
 python Location.py
  
 start https://alexa2automation.herokuapp.com/read?id=url
-start https://alexa2automation.herokuapp.com/
+
