@@ -259,5 +259,6 @@ Flask_api/key.json
 test.json
 Flask_api/key.json
 Flask_api/key.json
-/venAlexa/*
+/autodep/*
+/autodepwin/*
 Client_api/tunnels.json

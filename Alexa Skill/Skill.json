@@ -192,7 +192,10 @@
                         },
                         {
                             "name": {
-                                "value": "notepad"
+                                "value": "notepad",
+                                "synonyms": [
+                                    "Notes"
+                                ]
                             }
                         },
                         {
