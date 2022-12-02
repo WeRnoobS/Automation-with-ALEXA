@@ -13,7 +13,7 @@ def launch() -> question:
 @ask.intent('OpeingNormalPrograms',mapping={'name':'NormalProgram'})
 def openNormalPrograms(name)->question:
     log("-->"+name)
-    url=requests.get("https://alexa2automation.herokuapp.com/read?id=url").text
+    url=requests.get("https://alexa2automation.onrender.com/read?id=url").text
     requests.get(url+"/command?command="+name)
     return question("Opening "+name).simple_card(title="Automation Skill",content="{0} opened".format(name))
 
