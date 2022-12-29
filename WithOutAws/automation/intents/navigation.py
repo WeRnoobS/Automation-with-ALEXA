@@ -4,10 +4,6 @@ from automation import ask, logger
 import requests
 from os import getenv
 
-url = "http://127.0.0.1:5001"
-if getenv('FLASK_DEBUG') == 'development':
-    url = requests.get(
-        "https://alexa2automation.onrender.com/read?id=url").text
 
 
 @ask.intent('AMAZON.HelpIntent')
@@ -20,6 +16,8 @@ def launch() -> question:
 @ask.intent('OpeingNormalPrograms', mapping={'name': 'NormalProgram'})
 def openNormalPrograms(name) -> question:
     log("-->"+name)
+    url = requests.get(
+        "https://alexa2automation.onrender.com/read?id=url").text
     requests.get(url+"/command?command="+name)
     return question("Opening "+name).simple_card(title="Automation Skill", content="{0} Opened".format(name))
 
@@ -27,6 +25,8 @@ def openNormalPrograms(name) -> question:
 @ask.intent('projectList')
 def getProjectList() -> statement:
     log("--> getting project list")
+    url = requests.get(
+        "https://alexa2automation.onrender.com/read?id=url").text
     val = requests.get(url+"/getProjectNames").text
     return question("This is list of projects").simple_card(title="Automation Skill", content=val)
 
@@ -34,6 +34,8 @@ def getProjectList() -> statement:
 @ask.intent('openProject', mapping={'option': 'option'})
 def openProject(option) -> statement:
     log("--> openProject"+option)
+    url = requests.get(
+        "https://alexa2automation.onrender.com/read?id=url").text
     option = requests.get(url+"/openProject?option="+option).text
     if 'Unable' in option:
         return question(option).simple_card(title="Automation Skill", content=option)

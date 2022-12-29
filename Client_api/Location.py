@@ -15,7 +15,7 @@ def creating_url():
 
 
 def posting_URL(_url):
-    _main_url = "https://alexa2automation.herokuapp.com/add?url="
+    _main_url = "https://alexa2automation.onrender.com/add?url="
     try:
         respone = requests.post(_main_url+_url)
         return print(respone.text)
