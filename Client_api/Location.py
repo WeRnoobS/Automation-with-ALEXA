@@ -19,7 +19,7 @@ def posting_URL(_url):
     try:
         respone = requests.post(_main_url+_url)
         return print(respone.text)
-    except expression as identifier:
+    except Exception as identifier:
         print(identifier)
 
 
